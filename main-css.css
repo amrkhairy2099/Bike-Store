@@ -465,7 +465,7 @@ body{
 	background-size: cover;
 }
 .service .exchange {
-	background-image: url('imgs/ser-03.jpg');
+	background-image: url('imgs/ser-03.jpeg');
 	background-size: cover;
 }
 /* End Service */
@@ -877,7 +877,7 @@ body{
 .contact form input {
 	height: 40px;
 }
-/* Label Moving */
+/* Start Label Moving */
 .contact form label {
 	pointer-events: none;
 }
@@ -937,7 +937,7 @@ body{
 	color: black;
 	transition: .3s ease-out;
 }
-/* Label Moving */
+/* End Label Moving */
 .contact form textarea {
 	height: 170px;
 }
