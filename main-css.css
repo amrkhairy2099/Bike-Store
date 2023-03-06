@@ -188,7 +188,12 @@ body{
 	background-size: cover;
 	position: relative;
 }
-
+@media (max-width: 676px) {
+	.landing-page {
+		background-color: #2592d2;
+		background-image: none;
+	}
+}
 .landing-page .overlay {
 	background-color: rgb(0 0 0 / 53%);
 	position: absolute;
@@ -465,7 +470,7 @@ body{
 	background-size: cover;
 }
 .service .exchange {
-	background-image: url('imgs/ser-03.jpeg');
+	background-image: url('imgs/ser-03.JPG');
 	background-size: cover;
 }
 /* End Service */
