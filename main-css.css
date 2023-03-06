@@ -704,6 +704,7 @@ body{
 .features .feat-box img {
 	width: 100px;
 	border-radius: 10px;
+	box-shadow: 0 3px 8px;
 }
 .features .feat-box h4 {
 	font-size: 22px;
@@ -801,6 +802,7 @@ body{
 }
 .testimonials .ts-box .person-info img {
 	float: left;
+	width: 70px;
 	border-radius: 50%;
 	margin-right: 20px;	
 }
