@@ -1,7 +1,6 @@
 // Check If There's Local Storage Color List
 let mainColors = localStorage.getItem("color-list");
 if (mainColors !== null) {
-	console.log('Local not empty')
 	document.documentElement.style.setProperty('--main-color', mainColors);
 // Remove Active Class From All Childerns
 	document.querySelectorAll(".color-list li").forEach(element => {

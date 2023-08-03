@@ -2,12 +2,12 @@
 	--main-color: #ff9800;
 }
 *{
-	-wibkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 }
 .container {
@@ -52,7 +52,7 @@ body{
 	text-align: center;
 	padding: 20px;
 	background-color: #eee;
-    border-bottom: 1px #ccc solid;
+   border-bottom: 1px #ccc solid;
 }
 
 .setting-box .option-box h3 {
@@ -94,15 +94,15 @@ body{
 }
 .reset-option {
 	border: none;
-    background-color: #f96100;
-    color: #FFF;
-    width: 170px;
-    padding: 5px;
-    margin: 10% auto;
-    border-radius: 5px;
-    font-weight: bold;
-	display: block;
-    cursor: pointer;;
+   background-color: #f96100;
+   color: #FFF;
+   width: 170px;
+   padding: 5px;
+   margin: 10% auto;
+   border-radius: 5px;
+   font-weight: bold;
+   display: block;
+   cursor: pointer;
 }
 /* End Settings Box */
 /* Start Button To Switch Background */
@@ -110,7 +110,7 @@ body{
 	text-align: center;
 	padding: 5px;
 	background-color: #eee;
-    border-bottom: 1px #ccc solid;
+   border-bottom: 1px #ccc solid;
 }
 .setting-box .random-background h3 {
 	font-size: 12px;
@@ -119,15 +119,15 @@ body{
 
 .setting-box span {
 	display: inline-block;
-    background-color: var(--main-color);
-    color: white;
-    font-size: 14px;
-    width: 45px;
-    padding: 5px;
-    margin: 0px 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    opacity: 0.5;
+   background-color: var(--main-color);
+   color: white;
+   font-size: 14px;
+   width: 45px;
+   padding: 5px;
+   margin: 0px 5px 10px;
+   cursor: pointer;
+   border-radius: 5px;
+   opacity: 0.5;
 }
 .setting-box span.active {
 	opacity: 1;
@@ -184,7 +184,7 @@ body{
 /* Start Landing Page */
 .landing-page {
 	min-height: 100vh;
-	background-image: url('imgs/back-1.jpg');
+	background-image: url('../imgs/back-1.jpg');
 	background-size: cover;
 	position: relative;
 }
@@ -402,14 +402,14 @@ body{
 }
 .service .box {
 	position: relative;
-    height: 50vh;
-    flex: 1;
-    margin: 2px;
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   height: 50vh;
+   flex: 1;
+   margin: 2px;
+   background: #333;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 	overflow: hidden;
 }
 
@@ -421,22 +421,22 @@ body{
 .service .box h3:before {
 	content: "";
 	background-color: white;
-    position: absolute;
-    width: 10px;
-    height: 2px;
+   position: absolute;
+   width: 10px;
+   height: 2px;
 	bottom: -10px;
    
 }
 .service .repair {
-	background-image: url('imgs/ser-01.jpg');
+	background-image: url('../imgs/ser-01.jpg');
 	background-size: cover;
 }
 .service .box .overlay-info {
 	position: absolute;
-    background-color: rgb(255 255 255 / 60%);
-	color: #333;
-    width: 80%;
-    height: 80%;
+   background-color: rgb(255 255 255 / 60%);
+   color: #333;
+   width: 80%;
+   height: 80%;
 	bottom: 0; 
 	top: 100%;
 	padding: 20px;
@@ -460,17 +460,17 @@ body{
 }
 .service .box .overlay-info a {
 	text-decoration: none;
-    color: var(--main-color);
-    font-size: 20px;
-	font-weight: bold;
+   color: var(--main-color);
+   font-size: 20px;
+   font-weight: bold;
 	letter-spacing: 3px;
 }
 .service .recomend {
-	background-image: url('imgs/ser-02.jpg');
+	background-image: url('../imgs/ser-02.jpg');
 	background-size: cover;
 }
 .service .exchange {
-	background-image: url('imgs/ser-03.JPG');
+	background-image: url('../imgs/ser-03.JPG');
 	background-size: cover;
 }
 /* End Service */
@@ -487,14 +487,14 @@ body{
 }
 .gallery .images-box {
 	text-align: center;
-    margin: 0 auto;
+   margin: 0 auto;
 }
 .gallery .images-box img {
 	width: 200px;
-    padding: 3px;
-    background: #f6f6f6;
-    border: 1px solid #ccc;
-    cursor: pointer;
+   padding: 3px;
+   background: #f6f6f6;
+   border: 1px solid #ccc;
+   cursor: pointer;
 }
 .popup-overlay {
 	position: fixed;
@@ -521,15 +521,15 @@ body{
 	}
 }
 .popup-box  h3 {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-	width: 100%;
-    font-weight: bold;
-	text-align: center;
-    transform: translateX(-50%);
-    margin: 0 0 20px;
-    color: var(--main-color);
+   position: absolute;
+   bottom: -20px;
+   left: 50%;
+   width: 100%;
+   font-weight: bold;
+   text-align: center;
+   transform: translateX(-50%);
+   margin: 0 0 20px;
+   color: var(--main-color);
 	background-color: #FFF;
 	padding: 5px;
 	cursor: pointer;
@@ -766,70 +766,77 @@ body{
 	text-align: center;
 	z-index: 2;
 }
-.testimonials .ts-box {
+.testimonials .box {
 	position: relative;
-	width: calc(98% / 3);
+	width: calc(94% / 3);
 	float: left;
 	background-color: #FFF;
 	padding: 20px;
+   margin: 0 1%;
 	z-index: 2;
+   overflow: hidden;
 }
 @media (max-width: 767px) {
-	.testimonials .ts-box {
-		width :100%;
+	.testimonials .box {
+      float: none;
+		width :90%;
 		text-align: center;
-		margin-bottom: 10px;
+		margin: 0 auto 15px;
 	}
 }
-.testimonials .ts-box:not(:last-of-type) {
-	margin-right: 1%;
-}
-.testimonials .ts-box > p {
-	margin: 0 0 0 15px;
-	line-height: 1.5;
-	font-size: 18px;
-	color: #777;
-	font-style: italic;
-}
-.testimonials .ts-box .person-info {
-	overflow: hidden;
-}
+
 @media (max-width: 991px) {
-	.testimonials .ts-box .person-info {
+	.testimonials .box .text{
 		overflow: hidden;
 		text-align: center;
 	}
 }
-@media (max-width: 767px) {
-	.testimonials .ts-box .person-info {
-		display: block; 
-	}
+.testimonials .box .image {
+   display: flex;
+   float: left;
+   height: 70px;
+   width: 70px;
+   border-radius: 50%;
+   margin: 0 10px;
+   overflow: hidden;	
 }
-.testimonials .ts-box .person-info img {
-	float: left;
-	width: 70px;
-	border-radius: 50%;
-	margin-right: 20px;	
+.testimonials .box .image igm {
+   max-width: 100%;
 }
 @media (max-width: 991px) {
-	.testimonials .ts-box .person-info img  {
+	.testimonials .box .image  {
 		float: none;
-		margin-right: 0; 
+		margin: 0 auto; 
 	}
 }
-.testimonials .ts-box .person-info h4 {
-	margin: 15px 0 10px;
+.testimonials .box .text {
+   float: left; 
 }
-.testimonials .ts-box .person-info p {
-	color: #30fc03;
-	margin: 0;
+@media (max-width: 767px) {
+	.testimonials .box .text {
+		float: none; 
+	}
+}
+.testimonials .box .text h4 {
+	margin: 15px 0 5px;
+}
+.testimonials .box .text span {
+	font-size: 14px;
+   color: #bdbdbd;
+}
+.testimonials .box > p {
+	margin: 10px;
+	line-height: 1.5;
+	font-size: 16px;
+	color: #777;
+   float: left;
 }
 /* End Testimonials */
 /* Start Contact Us */
 .contact {
 	position: relative;
 	min-height: 600px;
-	background-image: url('imgs/map.JPG');
+	background-image: url('../imgs/map.JPG');
 	background-size: cover;
 	padding: 70px 0 70px;
 }
@@ -898,35 +905,35 @@ body{
 }
 .contact form .left .ph {
 	position: absolute;
-    top: 103px;
-    left: 14px;
-    color: #777;
+   top: 103px;
+   left: 14px;
+   color: #777;
 }
 .contact form .left .phone:focus ~ .ph, .left .phone:valid ~ .ph {
 	top: 76px;
 }
 .contact form .left .em {
 	position: absolute;
-    top: 170px;
-    left: 14px;
-    color: #777;
+   top: 170px;
+   left: 14px;
+   color: #777;
 }
 .contact form .left .email:focus ~ .em, .left .email:valid ~ .em {
 	top: 140px;
 }
 .contact form .left .sub {
 	position: absolute;
-    top: 233px;
-    left: 14px;
-    color: #777;
+   top: 233px;
+   left: 14px;
+   color: #777;
 }
 .contact form .left .subject:focus ~ .sub, .left .subject:valid ~ .sub {
 	top: 204px;
 }
 .contact form .right .mes {
 	position: absolute;
-    top: 35px;
-    left: 14px;
+   top: 35px;
+   left: 14px;
 	color: #777;
 }
 .contact form .right .message:focus ~ .mes, .right .message:valid ~ .mes {
@@ -971,11 +978,11 @@ body{
 
 .contact form input[type="submit"] {
 	width: 100%;
-    font-size: 20px;
-    color: #FFF;
-    background-color: var(--main-color);
-    border-color: transparent;
-    cursor: pointer;
+   font-size: 20px;
+   color: #FFF;
+   background-color: var(--main-color);
+   border-color: transparent;
+   cursor: pointer;
 }
 
 /* End Contact Us */
@@ -995,18 +1002,18 @@ body{
 .btn-Up {
 	position: fixed;
 	display: none;
-    width: 40px;
-    height: 40px;
-    background-color: var(--main-color);
-    color: #FFF;
-    z-index: 1000;
-    text-align: center;
-    line-height: 44px;
-    right: 50px;
-    bottom: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 20px;
+   width: 40px;
+   height: 40px;
+   background-color: var(--main-color);
+   color: #FFF;
+   z-index: 1000;
+   text-align: center;
+   line-height: 44px;
+   right: 50px;
+   bottom: 30px;
+   border-radius: 50%;
+   cursor: pointer;
+   font-size: 20px;
 	opacity: .5;
 }
 .btn-Up:hover {
